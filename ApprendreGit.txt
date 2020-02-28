@@ -6,6 +6,8 @@ Projet #5 : WebShop (Glam&Class)
 Projet #6 : TaxiLimousine
 Projet #7 : Survey
 
+repository : dépôt
+
 https://git-scm.com
 
 click droit "bash here"
@@ -19,5 +21,17 @@ git config --global user.email "tarik@t-knix.be"
 
 git status => changement depuis le dernier le dernier commit
 git add => tracker les fichiers
-git commit => 
+	git add .
+	git add <file>
+git commit => valider le add
+	git commit -m "commentaire"
+git restore <file> ou git checkout -- <file>=> ne prend pas en charge le fichier
 
+remote: machine a distance (pc collegue, serveur, etc...)
+
+voir toute les commandes : https://git-scm.com/doc
+
+git pull
+git push
+git fetch
+git clone
