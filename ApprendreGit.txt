@@ -31,7 +31,23 @@ remote: machine a distance (pc collegue, serveur, etc...)
 
 voir toute les commandes : https://git-scm.com/doc
 
-git pull
-git push
-git fetch
-git clone
+git pull => va chercher les modifications sur le serveur
+git push => envois vers le serveur
+git fetch => va voir les changements avec le serveur
+git clone => clone a partir du serveur
+	git clone <url>
+	
+branche : univers paralléle
+merge : rassemble 2 branches à un point donné
+rebase : rassemble 2 branches à tout point
+
+git branch <maBranche> => créé une nouvelle branche
+	git branch => montre toute les branches
+	git branch -d <branche> => supprime si la branche a ete merge
+	git branch -D <branche> => supprime meme si le merge n a pas ete fait
+	
+git checkout <maBranche> => passer sur la branche
+git checkout -b <maBranche> => créer et passer sur la branche
+git merge <maBranche> => merge la branche
+
+si conflit apres un merge :
