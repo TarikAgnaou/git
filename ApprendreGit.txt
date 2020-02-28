@@ -10,7 +10,7 @@ repository : dépôt
 
 https://git-scm.com
 
-click droit "bash here"
+click droit dans explorer "git bash here"
 
 git init
 git --version
@@ -50,4 +50,35 @@ git checkout <maBranche> => passer sur la branche
 git checkout -b <maBranche> => créer et passer sur la branche
 git merge <maBranche> => merge la branche
 
-si conflit apres un merge :
+git flow : methode d organisation
+faire des commit seulement si les versions sont opérationnels
+	Master
+	Develop
+	Feature
+	release
+	hotfixe
+	
+git push --set-upstream origin develop
+	
+git flow init
+git flow feature start <myFeature>
+git flow feature finish
+git flow release start <myRelease>
+git flow release finish
+
+git flow feature publish
+git flow release publish
+git flow develop publish
+
+outils graphiques pour intéragir avec Git
+	Interne
+		Git GUI here (cick droit souris dans explorer)
+	Externe
+		sublime merge
+		git kraken
+		sourcetree
+
+git est prevu pour des fichier "texte"
+Pour travailler avec des fichiers binaire
+	git-lfs.github.com
+	
