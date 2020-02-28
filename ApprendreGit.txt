@@ -1,0 +1,23 @@
+Projet #1 : Business Boost Project
+Projet #2 : House Keeper
+Projet #3 : Fleet Management
+Projet #4 : Guard Kids
+Projet #5 : WebShop (Glam&Class)
+Projet #6 : TaxiLimousine
+Projet #7 : Survey
+
+https://git-scm.com
+
+click droit "bash here"
+
+git init
+git --version
+
+git config --global user.name "TarikAgnaou" 
+git config --global user.email "tarik@t-knix.be"
+=> en mode general, en retirant --global c est seulement pour le repo en cours
+
+git status => changement depuis le dernier le dernier commit
+git add => tracker les fichiers
+git commit => 
+
