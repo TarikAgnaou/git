@@ -1,12 +1,4 @@
-Projet #1 : Business Boost Project
-Projet #2 : House Keeper
-Projet #3 : Fleet Management
-Projet #4 : Guard Kids
-Projet #5 : WebShop (Glam&Class)
-Projet #6 : TaxiLimousine
-Projet #7 : Survey
-
-repository : dépôt
+﻿repository : dépôt
 
 https://git-scm.com
 
