@@ -11,6 +11,10 @@ git config --global user.name "TarikAgnaou"
 git config --global user.email "tarik@t-knix.be"
 => en mode general, en retirant --global c est seulement pour le repo en cours
 
+pour synchroniser un dossier avec un nouveau dépôt
+git remote add origin https://github.com/TarikAgnaou/ (dossier)
+git push -u origin master
+
 git status => changement depuis le dernier le dernier commit
 git add => tracker les fichiers
 	git add .
